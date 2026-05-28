@@ -1,0 +1,10 @@
+---
+description: Input tokens the provider has cached from a previous request via its prefix cache, billed at a much lower rate.
+---
+[Input tokens](./Input%20tokens.md) the [provider](./Model%20provider.md) has cached from a previous [model provider request](./Model%20provider%20request.md) so it doesn't have to re-process them. When consecutive requests share a prefix, the provider reuses the work via its [prefix cache](./Prefix%20cache.md) and bills the cached portion at a much lower rate. The lever that makes long [sessions](./Session.md) affordable — without it, every [turn](./Turn.md) re-pays for the whole history.
+
+*Usage:*
+
+"Cost on long sessions is brutal — eight bucks for a refactor."
+
+"Check the cache tokens. If the [harness](./Harness.md) is reordering the [system prompt](./System%20prompt.md) or files between turns, the prefix breaks and you re-pay full input rate every request."
