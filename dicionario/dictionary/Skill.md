@@ -1,13 +1,12 @@
 ---
-descrição: A teachable capability bundled as a unit — kept out of the context window until a context pointer pulls it in for the task at hand.
+descrição: Uma capacidade ensinável agrupada como unidade — mantida fora da janela de contexto até que o ponteiro de contexto a puxe para a tarefa em questão.
 ---
+Uma capacidade ensinável agrupada como unidade — instruções e recursos para concluir uma tarefa bem, mantida no [ambiente](./Environment.md) até que o [ponteiro de contexto](./Context%20pointer.md) a puxe para dentro da [janela de contexto](./Context%20window.md) para a tarefa em questão. A unidade de [divulgação progressiva](./Progressive%20disclosure.md) em uma [harness](./Harness.md).
 
-A teachable capability bundled as a unit — instructions and resources for doing one task well, kept in the [environment](./Environment.md) until a [context pointer](./Context%20pointer.md) pulls it into the [context window](./Context%20window.md) for the task at hand. The unit of [progressive disclosure](./Progressive%20disclosure.md) in a [harness](./Harness.md).
-
-_Evite:_ "[tool](./Tool.md)" — a tool is what the [agente](./agente.md) _calls_; a skill is instructions it _reads_.
+_Evite:_ "[ferramenta](./Tool.md)" — ferramenta é o que o [agente](./agente.md) _chama_; skill são instruções que ele _lê_.
 
 _Uso:_
 
-"Where should I put the deploy runbook?"
+"Onde eu devo pôr o 'runbook de deploy'?"
 
-"As a skill — the agente loads it only when the task involves deploys. In [AGENTS.md](./AGENTS.md.md) it'd burn [tokens](./Token.md) on every [turn](./Turn.md) for something we use weekly."
+"Como uma skill — o agente a carrega apenas quando a tarefa envolve deploys. Em [AGENTES.md](./AGENTS.md.md) ele vai queimar [tokens](./Token.md) em todo [turno](./Turn.md) para algo que nós usamos semanalmente."
