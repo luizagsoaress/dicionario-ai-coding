@@ -1,10 +1,10 @@
 ---
-descrição: The date past which a model has no parametric knowledge. Post-cutoff libraries and APIs are fabrication traps unless docs are loaded.
+descrição: A data após a qual um modelo não possui conhecimento paramétrico. Bibliotecas e APIs "Post-cutoff" são armadilhas de fabricação a menos que os documentos sejam carregados.
 ---
-The date past which a [model](./Model.md) has no [parametric knowledge](./Parametric%20knowledge.md). Libraries, APIs, and events from after the cutoff are fabrication traps unless their docs are loaded as [contextual knowledge](./Contextual%20knowledge.md). Each model release ships with its own cutoff.
+A data após a qual um [modelo](./Model.md) não possui [conhecimento paramétrico](./Parametric%20knowledge.md). Bibliotecas, APIs, e eventos depois do "cutoff" são armadilhas de fabricação a menos que os documentos sejam carregados como [conhecimento contextual](./Contextual%20knowledge.md). Cada versão de modelo lançada possui seu próprio "cutoff".
 
 *Uso:*
 
-"It keeps writing the v3 SDK syntax — we're on v5."
+"Ele continua escrevendo na sintaxe v3 SDK — nós estamos na v5."
 
-"v5 shipped after the knowledge cutoff. Load the v5 changelog as contextual knowledge, otherwise it'll keep fabricating from the older parametric version."
+"v5 foi lançada após o "knowledge cutoff". Carregue o changelog da v5 como conhecimento contextual, caso contrário ele vai continuar fabricando a partir dos parâmetros da versão antiga."
