@@ -1,9 +1,9 @@
 ---
-description: The permission-gating slice of an agent mode — which tool calls trigger a permission request and which run automatically.
+descrição: The permission-gating slice of an agente mode — which tool calls trigger a permission request and which run automatically.
 ---
-The permission-gating slice of an [agent mode](./Agent%20mode.md) — which [tool calls](./Tool%20call.md) trigger a [permission request](./Permission%20request.md) and which run automatically. The original purpose of mode systems before [harnesses](./Harness.md) started bundling behavioral instructions on top.
+The permission-gating slice of an [agente mode](./agente%20mode.md) — which [tool calls](./Tool%20call.md) trigger a [permission request](./Permission%20request.md) and which run automatically. The original purpose of mode systems before [harnesses](./Harness.md) started bundling behavioral instructions on top.
 
-*Usage:*
+*Uso:*
 
 "It paused on every grep — totally killed the [AFK](./AFK.md) run."
 

@@ -1,18 +1,18 @@
 ---
-description: A working pattern where the user kicks off a session and leaves the agent to run unattended (away from keyboard).
+descrição: Um padrão de trabalho onde o usuário inicia uma sessão e deixa o agente rodar sem supervisão (away from keyboard).
 aliases:
-  - away from keyboard
+  - away from keyboard (distante do teclado)
   - AFK (away from keyboard)
 ---
 
-Away from keyboard. A working pattern where the user kicks off a [session](./Session.md) and leaves the [agent](./Agent.md) to run unattended. The throughput multiplier of AI coding — many AFK sessions can run in parallel while you sleep, eat, or work on something else. Usually requires a permissive [permission mode](./Permission%20mode.md) plus [sandboxing](./Sandbox.md) to be safe.
+Away from keyboard. Um padrão de trabalho onde o usuário inicia uma [session](./Session.md) e deixa o [agente](./agente.md) rodar sem supervisão. O multiplicador de produtividade da programação com IA — muitas sessões AFK podem rodar em paralelo enquanto você dorme, come ou trabalha em outra coisa. Normalmente requer um modo de permissão [permission mode](./Permission%20mode.md) além de [sandboxing](./Sandbox.md) para ser seguro.
 
-_Avoid:_ "background agent" — centers the machine ("running in the background") rather than the human pattern ("user has walked away"). AFK is the load-bearing fact: the user isn't watching.
+_Evite:_ "agente de fundo" — enfatiza a máquina ("rodando de fundo") mais que o padrão humano ("usuário se afastou"). O fato central do AFK: o usuário não está supervisionando.
 
-_Usage:_
+_Uso:_
 
-"I'm running this AFK — three sandboxed agents on the refactor, reviewing the PRs in the morning."
+"Eu estou rodando isso AFK — três agentes em sandbox no refactor, revisando os PRs de manhã."
 
-"[Bypass permissions](./Agent%20mode.md)?"
+"[Bypass permissions](./agente%20mode.md)?"
 
-"Yeah, read-only [filesystem](./Filesystem.md), no network."
+"Yeah, somente leitura [filesystem](./Filesystem.md), sem internet."

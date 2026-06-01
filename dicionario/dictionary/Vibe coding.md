@@ -1,14 +1,14 @@
 ---
-description: A working pattern where the user accepts the agent's code without human review. The diff is treated as opaque.
+descrição: Um padrão de trabalho onde o usuário aceita o código gerado pelo agente sem supervisão humana. O diff é tratado como opaco.
 ---
-A working pattern where the user accepts the [agent](./Agent.md)'s code without [human review](./Human%20review.md). The diff is treated as opaque — what matters is whether the program behaves, not what's inside. [Automated review](./Automated%20review.md) and [automated checks](./Automated%20check.md) may still run; vibe coding is silent on both.
+Um padrão de trabalho onde o usuário aceita o código gerado pelo [agente](./agente.md) sem [supervisão humana](./Human%20review.md). O diff é tratado como opaco — o que importa é se o programa funciona, não como funciona. [Automated review](./Automated%20review.md) e [automated checks](./Automated%20check.md) ainda podem rodar; vibe coding não diz nada sobre os dois.
 
-*Avoid:* "vibe coding" as a synonym for "low-quality AI coding" — the term names the review stance, not the resulting code.
+*Evite:* "vibe coding" como sinônimo para "código de IA de baixa qualidade" — o termo nomeia o processo de revisão, não o resultado do código.
 
-*Usage:*
+*Uso:*
 
-"Did you read what it changed in the auth flow?"
+"Você leu o que mudou no fluxo de autenticação?"
 
-"Vibe coded it — login still works, that's all I checked."
+"Vibe codei isso — login ainda funciona, isso é tudo que eu verifiquei."
 
-"Read the diff before you push, vibing on auth is how secrets leak into logs."
+"Leia o diff antes do push, vibing no auth é como segredos vazam nos logs."

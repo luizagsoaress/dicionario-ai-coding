@@ -1,21 +1,21 @@
 ---
-description: A preset bundling a permission mode with behavioral instructions injected into the system prompt. Can flip mid-session.
+descrição: Uma predefinição que agrupa um modo de permissão com instruções comportamentais injetadas no prompt do sistema. Pode mudar durante a sessão.
 aliases:
-  - plan mode
-  - accept-edits
-  - bypass permissions
+  - plan mode (modo plan)
+  - accept-edits (aceita edições)
+  - bypass permissions (permissão bypass)
   - YOLO mode
 ---
-A preset that shapes how the [agent](./Agent.md) operates at runtime — bundles a [permission mode](./Permission%20mode.md) with behavioral instructions injected into the [system prompt](./System%20prompt.md). Examples: a default that prompts on risky calls, a **plan mode** that blocks edits and steers the agent toward research, an **accept-edits** mode that auto-approves edits, a **bypass permissions** mode (colloquially **YOLO mode**) that auto-approves everything. Can flip [mid-session](./Session.md).
+Uma predefinição que molda como o [agente](./agente.md) opera em tempo de execução — agrupa um [modo de permissão](./Permission%20mode.md) com instruções de comportamento injetadas no [sistema de prompt](./System%20prompt.md). Exemplos: um padrão que solicita confirmação em chamadas arriscadas, um **plan mode** que bloqueia edições e direciona o agente para pesquisa, um modo **accept-edits** que auto-aprova edições, um modo **bypass permissions** (coloquialmente **YOLO mode**) que auto-aprova tudo. Pode mudar [durante a sessão](./Session.md).
 
-*Vendor terms:* Claude Code calls these "permission modes," Codex calls them "approval modes" — both predate behavioral bundling.
+*Vendor terms:* Claude Code chama de "modos de permissão", Codex chama de "modos de aprovação" — ambos anteriores ao agrupamento comportamental.
 
-*Usage:*
+*Uso:*
 
-"It keeps editing files when I just want a plan."
+"Ele continua editando arquivos quando eu só quero um plano."
 
-"Switch to plan mode — it'll block writes and stay in research."
+"Mude para o modo plan — isso vai bloquear escritas e se manter em pesquisa."
 
-"What about for the [AFK](./AFK.md) run later?"
+"E para a execução [AFK](./AFK.md) depois?"
 
-"Bypass mode, but only inside the [sandbox](./Sandbox.md)."
+"Modo de bypass, mas apenas dentro de [sandbox](./Sandbox.md)."

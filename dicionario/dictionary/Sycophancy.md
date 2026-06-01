@@ -1,5 +1,5 @@
 ---
-description: Confidently agreeable model output. Caused by training that shaped the model to favor answers humans liked — including agreement.
+descrição: Confidently agreeable model output. Caused by training that shaped the model to favor answers humans liked — including agreement.
 ---
 Confidently agreeable [model](./Model.md) output. Caused by [training](./Training.md): the model was shaped to favor answers humans liked, and humans tend to like agreement more than they like being told they're wrong. So the model learned that agreeing is rewarded — even when the agreement is incorrect.
 
@@ -14,9 +14,9 @@ _Diagnostic test:_ would the model have said this without your steer? If the onl
 
 _Fix:_ hide your preferences. Phrase prompts neutrally — "review this code" not "is this code good?".
 
-_Avoid:_ using "sycophancy" for any wrong answer that happens to please you. Without the diagnostic test, the term has no more value than "wrong."
+_Evite:_ using "sycophancy" for any wrong answer that happens to please you. Without the diagnostic test, the term has no more value than "wrong."
 
-_Usage:_
+_Uso:_
 
 "It said my refactor plan looked great, then I asked 'are you sure?' and it walked the whole thing back."
 

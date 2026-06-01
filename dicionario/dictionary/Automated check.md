@@ -1,13 +1,13 @@
 ---
-description: A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement.
+descrição: A deterministic verification that runs in the environment — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement.
 ---
-A deterministic verification that runs in the [environment](./Environment.md) — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement. The signal an [agent](./Agent.md) can self-correct from without involving anyone else. A flaky test is a broken check, not a non-check; automated checks are deterministic *by design*.
+A deterministic verification that runs in the [environment](./Environment.md) — tests, type checks, lints, build, pre-commit hooks. Pass/fail, no judgement. The signal an [agente](./agente.md) can self-correct from without involving anyone else. A flaky test is a broken check, not a non-check; automated checks are deterministic *by design*.
 
-*Avoid:* "feedback loop" / "backpressure" — both lump checks together with [review](./Automated%20review.md). *Avoid:* "test" — tests are automated checks, but not all automated checks are tests.
+*Evite:* "feedback loop" / "backpressure" — both lump checks together with [review](./Automated%20review.md). *Avoid:* "test" — tests are automated checks, but not all automated checks are tests.
 
-*Usage:*
+*Uso:*
 
-"The agent keeps shipping broken code in the [AFK](./AFK.md) runs."
+"The agente keeps shipping broken code in the [AFK](./AFK.md) runs."
 
 "What automated checks are wired into the [sandbox](./Sandbox.md)?"
 

@@ -1,12 +1,12 @@
 ---
-description: A model harnessed with tools, a system prompt, and a context window, that takes turns with a user. The model in motion.
+descrição: Um modelo encapsulado com ferramentas, um sistema de prompt, e uma janela de contexto, que altera em turnos com um usuário. O modelo em execução.
 ---
-A [model](./Model.md) [harnessed](./Harness.md) with [tools](./Tool.md), a [system prompt](./System%20prompt.md), and a [context window](./Context%20window.md), that takes [turns](./Turn.md) with a user. *Claude Code is an agent. Cursor is an agent. Claude.ai is an agent.* An agent is what you actually talk to — it's the model in motion, configured for a purpose.
+Um [model](./Model.md) [harnessed](./Harness.md) com [tools](./Tool.md), um [system prompt](./System%20prompt.md), e um [context window](./Context%20window.md), que altera [turns](./Turn.md) com um usuário. *Claude Code é um agente. Cursor é um agente. Claude.ai é um agente.* Um agente é com quem você conversa — é o modelo em execução, configurado para um propósito.
 
-*Avoid:* "the AI", "the bot" (too vague — they hide whether you mean the parameters or the harnessed thing).
+*Evite:* "A IA", "O robô" (muito vago — eles escondem se você está se referindo aos parâmetros ou à coisa encapsulada).
 
-*Usage:*
+*Uso:*
 
-"Which agent are you using for the migration?"
+"Qual agente você está usando para a migração?"
 
-"Claude Code locally, Cursor for the UI work — same model underneath, different harnesses."
+"Claude Code localmente, Cursor para o trabalho UI — mesmos modelos por baixo, diferentes interfaces."

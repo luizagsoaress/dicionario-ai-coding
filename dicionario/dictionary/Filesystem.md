@@ -1,9 +1,9 @@
 ---
-description: A tree of files and directories the agent reads from, writes to, and executes within — the default environment for a coding agent.
+descrição: A tree of files and directories the agente reads from, writes to, and executes within — the default environment for a coding agente.
 ---
-A tree of files and directories the [agent](./Agent.md) reads from, writes to, and executes within — the default kind of [environment](./Environment.md) for a coding agent. [AGENTS.md](./AGENTS.md.md), [skills](./Skill.md), source code, build scripts, and [tool](./Tool.md) configs all live in a filesystem. When a [harness](./Harness.md) "starts in your project," it's pointing the agent at a filesystem.
+A tree of files and directories the [agente](./agente.md) reads from, writes to, and executes within — the default kind of [environment](./Environment.md) for a coding agente. [AGENTS.md](./AGENTS.md.md), [skills](./Skill.md), source code, build scripts, and [tool](./Tool.md) configs all live in a filesystem. When a [harness](./Harness.md) "starts in your project," it's pointing the agente at a filesystem.
 
-*Usage:*
+*Uso:*
 
 "Why isn't it picking up my AGENTS.md?"
 

@@ -1,9 +1,9 @@
 ---
-description: What the harness sends back after executing a tool call — file contents, output, or error. The agent's only window onto the environment.
+descrição: What the harness sends back after executing a tool call — file contents, output, or error. The agente only window onto the environment.
 ---
-What the [harness](./Harness.md) sends back after executing a [tool call](./Tool%20call.md) — the file contents, the command output, the error. The [agent](./Agent.md)'s only window onto the [environment](./Environment.md). Travels back to the [model](./Model.md) in the *next* [model provider request](./Model%20provider%20request.md), where the model decides what to do with it. Tool call and tool result are two ends of the same exchange, both inside one [turn](./Turn.md).
+What the [harness](./Harness.md) sends back after executing a [tool call](./Tool%20call.md) — the file contents, the command output, the error. The [agente](./agente.md)'s only window onto the [environment](./Environment.md). Travels back to the [model](./Model.md) in the *next* [model provider request](./Model%20provider%20request.md), where the model decides what to do with it. Tool call and tool result are two ends of the same exchange, both inside one [turn](./Turn.md).
 
-*Usage:*
+*Uso:*
 
 "It's reasoning about the file like it's empty."
 
