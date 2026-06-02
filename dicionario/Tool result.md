@@ -1,10 +1,10 @@
 ---
-descrição: What the harness sends back after executing a tool call — file contents, output, or error. The agente only window onto the environment.
+descrição: O que o harness envia de volta depois de executar a chamada da ferramenta — conteúdos dos arquivos, saída, ou erro. A única janela do agente para o ambiente.
 ---
-What the [harness](./Harness.md) sends back after executing a [tool call](./Tool%20call.md) — the file contents, the command output, the error. The [agente](./agente.md)'s only window onto the [environment](./Environment.md). Travels back to the [model](./Model.md) in the *next* [model provider request](./Model%20provider%20request.md), where the model decides what to do with it. Tool call and tool result are two ends of the same exchange, both inside one [turn](./Turn.md).
+O que o [harness](./Harness.md) envia de volta depois de executar a [chamada de ferramenta](./Tool%20call.md) — os conteúdos dos arquivos, o comando de saída, o erro. A única janela do [agente](./agente.md) para o [ambiente](./Environment.md). Viaja de volta para o [modelo](./Model.md) na *próxima* [requisição do provedor de modelos](./Model%20provider%20request.md), onde o modelo decide o que fazer com isso. Chamada de ferramenta e resultado de ferramenta são duas extremidades para a mesma troca, ambos dentro de um [turno](./Turn.md).
 
 *Uso:*
 
-"It's reasoning about the file like it's empty."
+"Ele está raciocinando sobre o arquivo como se ele estivesse vazio."
 
-"The tool result came back as a permission denial, not the contents. The model only saw the error string — it has no other window onto the file."
+"O resultado da ferramenta volta como permissão negada, não os conteúdos. O modelo só vê a string de erro — ele não tem outra janela para o arquivo."
