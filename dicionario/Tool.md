@@ -1,10 +1,10 @@
 ---
-descrição: A function the harness exposes for the agente to call — Read, Write, Bash, Search. How an agente perceives and acts on the environment.
+descrição: Uma função que o harness expõe para o agente chamar — Ler, Escrever, Bash, Pesquisar. Como um agente percebe e age no ambiente.
 ---
-A function the [harness](./Harness.md) exposes for the [agente](./agente.md) to call — Read, Write, Bash, Search. Tools are how an agente perceives and acts on the [environment](./Environment.md): it can't see the environment except through [tool results](./Tool%20result.md), and can't change it except through [tool calls](./Tool%20call.md). Each tool call costs an extra [model provider request](./Model%20provider%20request.md), since the result has to go back to the model before it can decide what to do next.
+Uma função que o [harness](./Harness.md) expõe para o [agente](./agente.md) chamar — Ler, Escrever, Bash, Pesquisar. Ferramentas são como o agente percebe e age no [ambiente](./Environment.md): ele não pode ver o ambiente exceto por [resultados da ferramenta](./Tool%20result.md), e não pode mudar isso exceto por [chamadas das ferramentas](./Tool%20call.md). Cada chamada da ferramenta custa uma [requisição do provedor de modelo](./Model%20provider%20request.md) extra, pois o resultado precisa voltar para o modelo antes que ele possa decidir o que fazer em seguida.
 
 *Uso:*
 
-"Can the agente query staging directly?"
+"O agente pode consultar o staging diretamente?"
 
-"Add a `psql` tool to the harness, scoped read-only on staging. Without a tool for it, the agente's blind to anything outside the [filesystem](./Filesystem.md)."
+"Adicione uma ferramenta `psql` ao harness, com escopo de somente leitura no staging. Sem uma ferramenta para isso, o agente fica 'cego' para tudo fora do [sistema de arquivos](./Filesystem.md)."
