@@ -1,10 +1,10 @@
 ---
-descrição: The model's output naming a tool and its arguments — just structured text. The harness has to read it and execute.
+descrição: A saída do modelo nomeia uma ferramenta e seus argumentos — apenas texto estruturado. O harness precisa ler e executar.
 ---
-The [model](./Model.md)'s output naming a [tool](./Tool.md) and its arguments — just structured text. It doesn't do anything on its own; the [harness](./Harness.md) has to read it and execute. Produced by the model in one [model provider request](./Model%20provider%20request.md).
+A saída do [modelo](./Model.md) nomeia uma [ferramenta](./Tool.md) e seus argumentos — apenas texto estruturado. Ele não faz nada por conta própria; o [harness](./Harness.md) tem que ler e executar. Produzido pelo modelo em uma [requisição do provedor de modelo](./Model%20provider%20request.md).
 
 *Uso:*
 
-"It said it ran the tests but the file timestamps haven't changed."
+"Ele disse que rodou os testes mas os timestamps dos arquivos não mudaram."
 
-"Look at the transcript — did it actually emit a tool call, or just describe running them? The model produces the call, but if the harness didn't execute it, nothing happened."
+"Olhe para a transcrição — ela realmente emitiu uma chamada de ferramenta, ou apenas descreveu a execução deles? O modelo produz a chamada, mas se o harness não executar isso, nada acontece."
