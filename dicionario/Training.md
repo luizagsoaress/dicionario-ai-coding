@@ -1,10 +1,13 @@
 ---
-descrição: The process that sets a model's parameters by exposing it to vast amounts of text and adjusting to improve next-token prediction.
+descrição: O processo que define os parâmetros do modelo expondo eles a uma vasta quantidade de texto e ajustando para melhorar a previsão do próximo token. 
 ---
-The process that sets a [model](./Model.md)'s [parameters](./Parameters.md), by exposing it to vast amounts of text and adjusting parameters to improve [next-token prediction](./Next-token%20prediction.md). A one-time, expensive process done by the [model provider](./Model%20provider.md). Encompasses both pre-training (the bulk run) and post-training (later refinements like instruction-following and safety); the distinction doesn't matter at this glossary's level.
+O processo que define os [parâmetros](./Parameters.md) do [modelo](./Model.md),  expondo eles a uma vasta quantidade de texto e ajustando para melhorar a [previsão do próximo token](./Next-token%20prediction.md). Um processo único e caro realizado pelo [provedor de modelo](./Model%20provider.md). Abrange tanto o pré-treinamento (a execução principal) quanto o pós-treinamento (refinamentos posteriores como seguimento de instruções e segurança); a distinção não importa no nível deste glossário.
 
 *Uso:*
 
-"Can we get it to know our internal API?"
+"Nós podemos fazer ele conhecer nossa API interna?"
 
-"Not via training — that's a months-long process by the model provider. Load the API docs into [context](./Context.md) instead, that's the lever you actually have."
+"Não via treinamento — esse é um processo de meses pelo provedor de modelo. Carregue a documentação da API no [contexto](./Context.md), esse é o recurso que você realmente tem."
+
+
+ 
