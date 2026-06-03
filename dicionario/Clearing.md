@@ -1,10 +1,10 @@
 ---
-descrição: Ending the current session and starting a fresh one. The next message begins with an empty session and an empty context window.
+descrição: Encerrando a sessão atual e iniciando uma nova. A próxima mensagem começa com uma sessão vazia e uma janela de contexto vazia.
 ---
-Ending the current [session](./Session.md) and starting a fresh one. The next message begins with an empty session and an empty [context window](./Context%20window.md). Usually user-driven.
+Encerrando a [sessão](./Session.md) atual e iniciando uma nova. A próxima mensagem começa com uma sessão e [janela de contexto](./Context%20window.md) vazias. Normalmente comandado pelo usuário.
 
 *Uso:*
 
-"It's stuck looping on the failing test."
+"Ele está preso em loop no teste que falha."
 
-"Just clear it — start a fresh session with the plan doc and the test file. No point fighting the existing [context](./Context.md)."
+"Apenas limpe ele — inicie uma nova sessão com o documento de plano e o arquivo de teste. Não adianta lutar com o [contexto](./Context.md) existente."
